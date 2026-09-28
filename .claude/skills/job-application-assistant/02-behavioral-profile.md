@@ -4,51 +4,51 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment (PI, DISC, etc.) provided. Everything below is *[Inferred from CV - review before relying on this]*. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Dayerlis no tiene una evaluación conductual formal registrada. Por su hoja de vida, su perfil es el de una profesional **orientada al servicio, organizada y con foco en la calidad**, cómoda en entornos institucionales con procesos definidos (ICBF) y trabajo directo con familias y población vulnerable. *[Inferred from CV]*
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Orientación al servicio / social | Alta *[inferido]* | Interés explícito en el campo social comunitario y la salud |
+| Estructura y procesos | Alta *[inferido]* | Destaca planificación, orientación a la calidad y mejora de registros/seguimientos |
+| Colaboración | Alta *[inferido]* | Trabajo en equipo, comunicación asertiva y escucha activa |
+| Autonomía | Media *[inferido]* | Autogestión declarada; experiencia como practicante supervisada |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Escucha activa y comunicación asertiva:** base de las valoraciones y visitas domiciliarias con familias. *[Inferred from CV]*
+- **Organización y orientación a la calidad:** mejoró el seguimiento y registro de casos PARD, reduciendo tiempos de respuesta. *[Inferred from CV]*
+- **Capacidad de análisis:** redacción de informes técnicos para fallos del PARD. *[Inferred from CV]*
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Equipos interdisciplinarios (psicología, trabajo social, derecho) en entidades de protección o salud *[inferido]*
+- Procesos claros con lineamientos técnicos (p. ej. lineamientos ICBF) *[inferido]*
+- Trabajo de campo combinado con trabajo de oficina (visitas + informes) *[inferido]*
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Experiencia laboral corta (4 meses de práctica):** presentarla como práctica profesional intensiva en un contexto de alta exigencia (CAIVAS), con logro concreto de mejora de procesos.
+- **Ofimática básica:** mostrar disposición y aprendizaje rápido; mencionar el manejo del SIM.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "restablecimiento de derechos", "PARD", "Defensoría de Familia", "ICBF", "CAIVAS", "CAVIF", "CESPA"
+- "atención psicosocial", "visitas domiciliarias", "familias", "primera infancia", "niñez y adolescencia"
+- "psicología social comunitaria", "salud mental", "trabajo en equipo interdisciplinario"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "psicología clínica con experiencia mínima de 2 años", "especialización requerida"
+- "manejo avanzado de Excel", "análisis de datos"
+- Roles 100% comerciales o de ventas
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- (pendiente: preguntar a Dayerlis)
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** abrir con la experiencia en el ICBF/CAIVAS y el logro de optimización de seguimientos PARD.
+- **CV:** enfatizar valoraciones, informes técnicos, visitas domiciliarias y trabajo con niñez y familias.
+- **Interviews:** usar el ejemplo de mejora del registro/seguimiento de casos y el manejo emocional en casos de abuso sexual.
+- **Don't overstate:** no presentarla como psicóloga clínica con experiencia terapéutica, ni con experiencia laboral mayor a la práctica de 4 meses.

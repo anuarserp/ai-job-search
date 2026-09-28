@@ -116,11 +116,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Psicóloga en protección / restablecimiento de derechos (ICBF, Defensorías, operadores):**
+> Psicóloga de la Universidad del Magdalena con práctica profesional en la Defensoría especializada CAIVAS del ICBF, donde acompañé valoraciones iniciales de casos de presunto abuso sexual, hice seguimiento a Procesos Administrativos de Restablecimiento de Derechos (PARD), redacté informes para fallos y realicé visitas domiciliarias. Contribuí a optimizar el seguimiento y registro de casos, reduciendo tiempos de respuesta. Con comunicación asertiva, escucha activa y orientación a la calidad.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Psicóloga social comunitaria / salud:**
+> Psicóloga con experiencia en valoración e intervención con niños, niñas, adolescentes y familias en contextos de vulneración de derechos, y con capacidad de intervención en diferentes tipos de poblaciones. Interesada en aportar al trabajo psicosocial comunitario y en salud desde la planificación, la comunicación asertiva y la orientación a la calidad.
+
+**For Gestión humana / selección (rol secundario):**
+> Psicóloga con Diplomado en Gestión Humana (Universidad del Magdalena) y experiencia en entrevista, valoración y elaboración de informes psicológicos, con habilidades de escucha activa, análisis y comunicación asertiva.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

@@ -16,26 +16,30 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Optimización del seguimiento y registro de casos PARD (organización, mejora de procesos)
+**S:** Práctica profesional en la Defensoría especializada CAIVAS del ICBF (feb-jun 2025), con alto volumen de PARD abiertos que requerían seguimiento y registro en el SIM.
+**T:** Apoyar los seguimientos de los PARD y el registro de actuaciones en la plataforma SIM.
+**A:** (pendiente - ¿qué hizo concretamente? p. ej. una matriz de seguimiento, un orden de registro, recordatorios)
+**R:** Mejor organización interna y menores tiempos de respuesta en la gestión de los PARD (pendiente: ¿hay alguna cifra o ejemplo?).
+**Use for:** "Cuéntame de una mejora que hayas propuesto", "¿Cómo organizas tu trabajo?", "Orientación a la calidad"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Valoraciones iniciales en casos de presunto abuso sexual (escucha activa, manejo emocional)
+**S:** Casos ingresados al CAIVAS por presuntos hechos de abuso sexual contra niños, niñas y adolescentes.
+**T:** Acompañar la valoración psicológica inicial del niño/a y su familia.
+**A:** (pendiente - cómo generaba confianza, cómo cuidaba no revictimizar, cómo manejaba la carga emocional)
+**R:** (pendiente)
+**Use for:** "Situación emocionalmente difícil", "Trabajo con población vulnerable", "¿Cómo manejas el estrés?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Informes para fallo y cierre del PARD (redacción técnica, análisis)
+**S:** Los PARD requieren informes psicológicos que sustentan la decisión de la Defensoría de Familia.
+**T:** Redactar informes para fallos y realizar seguimientos para el cierre del proceso.
+**A:** (pendiente - fuentes que integraba: valoración, visitas domiciliarias, instituciones de salud mental)
+**R:** (pendiente)
+**Use for:** "Redacción de informes", "Trabajo interdisciplinario", "Toma de decisiones con información incompleta"
+
+### 4. Visitas domiciliarias e instituciones de salud mental (trabajo de campo, articulación)
+**S/T/A/R:** (pendiente - completar con un caso concreto, sin datos identificables del niño/a o la familia)
+**Use for:** "Trabajo en campo", "Articulación interinstitucional", "Adaptación a contextos diversos"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

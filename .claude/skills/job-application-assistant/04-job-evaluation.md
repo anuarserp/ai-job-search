@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** valoración psicológica de niños, niñas, adolescentes y familias; restablecimiento de derechos (PARD); redacción de informes psicológicos; visitas domiciliarias; atención a víctimas de violencia sexual
+**Moderate match areas:** psicología social comunitaria; gestión humana / selección (diplomado); acompañamiento psicosocial en salud
+**Weak match areas:** psicoterapia clínica, aplicación e interpretación avanzada de pruebas psicométricas, psicología organizacional con experiencia laboral, ofimática avanzada / análisis de datos
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** protección de niñez y familia (ICBF, Defensorías de Familia, operadores del ICBF)
+**Moderate:** programas sociales comunitarios, salud mental / IPS, instituciones educativas
+**Entry-level:** toda la experiencia es de práctica profesional (4 meses). Priorizar ofertas "sin experiencia", "recién egresada" o "0-1 años"; marcar como brecha las que exigen 1-2+ años
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Conseguir el primer empleo formal como psicóloga
+- Trabajar en el campo social comunitario o de la salud
+- (pendiente: metas a mediano plazo, p. ej. especialización)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: (pendiente; inferido del CV: trabajo con niñez y familias, intervención comunitaria)
+- Tasks that drain: (pendiente)
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: (pendiente: aspiración salarial y tipo de contrato aceptable - prestación de servicios vs. laboral)
+- **Flexibility**: (pendiente)
+- **Professional development**: (pendiente)
 
 ### 6. Salary Benchmark (Optional)
 
