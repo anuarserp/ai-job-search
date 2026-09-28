@@ -10,65 +10,66 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (Colombia):
-- **linkedin.com/jobs** - LinkedIn (filtro: Medellín, Antioquia, Colombia); también vía CLI `linkedin-search` con `--location "Medellín, Antioquia, Colombia"`
-- **co.computrabajo.com** - bolsa de empleo más grande de Colombia
-- **elempleo.com** - bolsa general colombiana
-- **co.indeed.com** - agregador
-- **serviciodeempleo.gov.co / SISE** - Servicio Público de Empleo (incluye cajas de compensación: Comfama, Comfenalco Antioquia)
-- **cnsc.gov.co (SIMO)** - concursos de carrera administrativa (ICBF y otras entidades públicas)
-- **icbf.gov.co/trabaja-con-nosotros** y **SECOP II** - contratos de prestación de servicios con el ICBF y la Alcaldía
+Primary (your market's job boards - scaffold one with `/add-portal`):
+- **[YOUR_JOB_BOARD]** - your market's largest general job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
+- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
+- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
 
 Secondary (company career pages via Google):
-- Operadores del ICBF en Antioquia, Alcaldía de Medellín, fundaciones, IPS de salud mental
+- Direct Google searches with `site:` filters for known target companies
 
 ## Query Categories
 
-### Priority 1: Psicóloga en protección / restablecimiento de derechos
+Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+
+### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+
+These match your strongest and most desired career direction.
 
 ```
-site:co.computrabajo.com psicólogo "restablecimiento de derechos" Medellín
-site:co.computrabajo.com psicóloga ICBF Medellín
-site:linkedin.com/jobs psicólogo "Defensoría de Familia" OR "Comisaría de Familia" Antioquia
-site:elempleo.com psicólogo ICBF Antioquia
-"psicólogo" "PARD" OR "restablecimiento de derechos" Medellín vacante
+site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
+site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
 ```
 
-### Priority 2: Psicóloga social comunitaria y psicosocial
+### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+
+These match your domain expertise.
 
 ```
-site:co.computrabajo.com "psicólogo social" OR "psicóloga social" Medellín
-site:co.computrabajo.com "profesional psicosocial" Medellín
-site:linkedin.com/jobs "psicosocial" psicólogo Medellín
-site:elempleo.com "psicólogo comunitario" OR "atención psicosocial" Antioquia
+site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
+site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
+site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
 ```
 
-### Priority 3: Psicóloga en salud / salud mental
+### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+
+Adjacent roles you could pivot into.
 
 ```
-site:co.computrabajo.com psicólogo IPS Medellín
-site:co.computrabajo.com psicóloga "salud mental" Medellín
-site:linkedin.com/jobs psicólogo "salud mental" Medellín
+site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
 ```
 
-### Priority 4: Red más amplia (recién egresada, gestión humana)
+### Priority 4: Broader Technical / Consulting
+
+Wider net for general technical roles.
 
 ```
-site:co.computrabajo.com psicólogo "sin experiencia" OR "recién egresado" Medellín
-site:co.computrabajo.com "psicólogo de selección" OR "analista de selección" Medellín
-site:linkedin.com/jobs "psicólogo" "talento humano" Medellín
-site:elempleo.com psicólogo Medellín
+site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
+site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
+site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
 ```
 
 ## Location Filter
 
-Verificar que la vacante esté en un lugar razonable desde Medellín:
-- Medellín (ideal)
-- Área Metropolitana: Bello, Itagüí, Envigado, Sabaneta (aceptable)
-- La Estrella, Caldas, Copacabana, Girardota (aceptable)
-- Oriente cercano: Rionegro, Marinilla, La Ceja (borderline - ~1 h; pendiente confirmar)
-- Otros departamentos / municipios lejanos de Antioquia (demasiado lejos, salvo que Dayerlis diga lo contrario)
-- Remoto / teleorientación psicológica: aceptable
+When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
+- [YOUR_CITY] and surrounding areas
+- [ACCEPTABLE_AREA_1]
+- [ACCEPTABLE_AREA_2]
+- [BORDERLINE_AREA] (borderline - ~X min by transit)
+- [TOO_FAR_AREA] (too far)
 
 ## Date Filter
 

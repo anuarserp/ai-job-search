@@ -1,10 +1,10 @@
-# Job Application Assistant for Dayerlis Yepez Velásquez
+# Job Application Assistant for [YOUR_NAME]
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for Dayerlis Yepez Velásquez, helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +13,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-### Identity
-- **Name:** Dayerlis Yepez Velásquez
-- **Location:** Medellín, Antioquia, Colombia (Medellín y Área Metropolitana; pendiente confirmar municipios)
-- **Languages:** Español (nativo)
-- **CV language:** Español
+<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
-- **Status:** Psicóloga recién egresada (2025), en búsqueda de empleo
-- **LinkedIn headline:** (pendiente)
+### Identity
+- **Name:** [YOUR_NAME]
+- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Languages:** [YOUR_LANGUAGES]
+- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+
+- **Status:** [YOUR_EMPLOYMENT_STATUS]
+- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
 
 ### Education
-- **Psicología** (2019-2025) - Universidad del Magdalena
-- **Diplomado en Gestión Humana** (2024) - Universidad del Magdalena
+<!-- List your degrees, most recent first -->
+- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
+  - Thesis: "[THESIS_TITLE]"
+  - Topics: [KEY_TOPICS]
 
 ### Professional Experience
-- **Practicante profesional en psicología** (Feb 2025 - Jun 2025) - **Defensoría especializada CAIVAS, ICBF**
-  - Valoraciones iniciales en casos de presunto abuso sexual; seguimiento, informes para fallo y cierre de PARD
-  - Visitas domiciliarias e instituciones de salud mental; registro de actuaciones en la plataforma SIM
-  - Contribuyó a optimizar el seguimiento y registro de casos, reduciendo tiempos de respuesta en los PARD
+<!-- List your roles, most recent first -->
+- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
+  - [KEY_RESPONSIBILITY_1]
+  - [KEY_RESPONSIBILITY_2]
+  - [KEY_ACHIEVEMENT]
 
 ### Technical Skills
-- **Primary:** Valoración psicológica de niñez y familias, restablecimiento de derechos (PARD), informes psicológicos, visitas domiciliarias
-- **Secondary:** Intervención con diferentes poblaciones, gestión humana (diplomado)
-- **Domain:** Protección de niñez y adolescencia (ICBF), atención a víctimas de violencia sexual, psicología social comunitaria y salud
-- **Software:** Ofimática (básico), plataforma SIM del ICBF
+- **Primary:** [YOUR_PRIMARY_SKILLS]
+- **Secondary:** [YOUR_SECONDARY_SKILLS]
+- **Domain:** [YOUR_DOMAIN_EXPERTISE]
+- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
 
 ### Certifications
-- **Diplomado en Gestión Humana** - Universidad del Magdalena - 2024
+<!-- List relevant certifications with dates -->
+- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
 
 ### Publications
-- Ninguna
+<!-- List peer-reviewed publications, if any -->
+- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
 
 ### Awards
-- Ninguno registrado
+<!-- List relevant awards, hackathons, competitions -->
+- [AWARD_NAME] - [EVENT] ([YEAR])
 
 ### Behavioral Profile
-*(Sin evaluación formal; inferido de la hoja de vida - ver `02-behavioral-profile.md`)*
-- **Comunicación asertiva y escucha activa** - base de su trabajo con familias
-- **Orientación a la calidad y planificación** - mejoró el seguimiento de casos PARD
-- **Strengths:** Trabajo en equipo, autogestión, capacidad de análisis
-- **Growth areas:** Experiencia laboral corta (práctica de 4 meses), ofimática básica
-- **Thrives in:** Entidades de protección, salud o programas comunitarios con equipos interdisciplinarios
+<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
+- **[TRAIT_1]** - [DESCRIPTION]
+- **[TRAIT_2]** - [DESCRIPTION]
+- **Strengths:** [YOUR_STRENGTHS]
+- **Growth areas:** [YOUR_GROWTH_AREAS]
+- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
 
 ### What Excites You
-- Campo social comunitario
-- Salud / salud mental
-- Trabajo con niñez y familias (inferido de su experiencia)
+<!-- What motivates you professionally -->
+- [PASSION_1]
+- [PASSION_2]
 
 ### Target Sectors
-- Protección y bienestar familiar: ICBF, operadores del ICBF, Comisarías y Defensorías de Familia, fundaciones
-- Salud: IPS, EPS, programas de salud mental y atención psicosocial
-- Social comunitario: Alcaldía de Medellín (secretarías de Inclusión Social, Salud, Educación), ONG y cajas de compensación
-- Secundario: gestión humana / selección de personal
+<!-- Industries and companies you're targeting -->
+- [SECTOR_1]: [EXAMPLE_COMPANIES]
+- [SECTOR_2]: [EXAMPLE_COMPANIES]
 
 ### Deal-breakers
-- (pendiente)
+<!-- Hard constraints on job search -->
+- [DEALBREAKER_1]
+- [DEALBREAKER_2]
 
 ## Repo Structure
-- `cv/` - LaTeX CV variants (moderncv template, banking style) - **not used for this candidate** (see below)
-- `documents/cv/hoja_de_vida/` - **the candidate's CV template: HTML replica of her Canva CV** (`hoja_de_vida.html`, `foto.jpg`, `fonts/`), rendered to PDF with `node documents/cv/hoja_de_vida/render.mjs`. Git-ignored (personal data).
-
-### CV format for this candidate (overrides the LaTeX defaults below)
-Do **not** build CVs in LaTeX. Every CV is an HTML copy of `documents/cv/hoja_de_vida/hoja_de_vida.html` that keeps the original Canva design (photo, fonts, colors, timeline layout, 1 A4 page), saved as `documents/cv/hoja_de_vida/hoja_de_vida_<company>_<role>.html` and rendered to PDF with `node documents/cv/hoja_de_vida/render.mjs <input.html> [out.pdf]` (the copy must stay in that folder so `foto.jpg` and `fonts/` resolve). In the Verification Checklist, replace the moderncv / lualatex / "exactly 2 pages" / `\cventry` items with: **CV is exactly 1 A4 page, nothing overflows or overlaps, the photo renders, text layer extracts cleanly**. The layout uses absolute positions, so after changing text re-check that blocks do not collide.
+- `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools
